@@ -1,7 +1,7 @@
 // components/ImageSlider.jsx
 import { useState } from 'react';
 import Image from 'next/image';
-import images from '../images'
+
 
 const ImageSlider = () => {
   const [images] = useState([
